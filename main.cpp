@@ -24,10 +24,17 @@ int main()
   //the first and second blanks should be replaced with the coordinates
   //of the element's row and column and the third blank should be replaced
   //with the value of that element
-
-  
-
-
+int  wordGrid[row][col];
+char i,j;
+i=row
+j=col
+for(int i=0;i<wordGrid.size();i++0)
+{
+   for(int j=0;j<wordGrid(i).size();j++)
+   {
+     wordGrid[i][j]<<"is :"<<endl;
+    }
+}
 
  return 0;
 }
